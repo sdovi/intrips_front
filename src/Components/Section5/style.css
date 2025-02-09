@@ -1,0 +1,14 @@
+.sect5__bassein{
+    width: 400;
+    height: 260px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: start;
+    
+}
+.sect5__txt-h5{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}

@@ -1,0 +1,82 @@
+
+.nav_img{
+    position: relative;
+    top: 0px;
+
+}
+
+
+
+.nav__logo-profile{
+    min-width: auto;
+    width: 44px;
+    height: 44px;
+    position: relative;
+    background: var(--toolbar-button-bg, #fff);
+    color: var(--toolbar-button-text, #000);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__logo-profile{
+}
+
+.nav__logo-message-main{
+    
+    min-width: auto;
+    width: 44px;
+    height: 44px;
+    position: relative;
+    background: var(--toolbar-button-bg, #fff);
+    color: var(--toolbar-button-text, #000);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_block-top{
+    display: flex;
+    position: relative;
+    top: 10px;
+    justify-content: space-between;
+}
+.nav__bottom-txt h4{
+    font-size: calc(25.3333px + 1.66667vw);
+}
+.nav__bottom-txt{
+    color: white;
+    width: 95%;
+    margin: auto;
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.nav_img {
+    width: 100%;
+    height: 212px; /* Базовая высота */
+    background-size: cover !important; /* Покрывает весь блок */
+    background-position: center, center !important; /* Центрирует изображение */
+    background-repeat: no-repeat;
+  }
+  
+  @media (max-width: 410px) {
+    .nav_img {
+      height: 250px; /* Увеличиваем высоту для лучшего отображения */
+      background-size: 150%; /* Изображение становится больше */
+    }
+  }
+  
+  @media (max-width: 300px) {
+    .nav_img {
+      height: 300px; /* Еще больше увеличиваем высоту */
+      background-size: 200%; /* Изображение приближается */
+    }
+  }
+  

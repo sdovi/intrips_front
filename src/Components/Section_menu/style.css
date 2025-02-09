@@ -1,0 +1,86 @@
+.secton1 {
+    border-radius: 20px;
+    padding: 24px 0px;
+    position: relative;
+    top: -20px;
+    background-color: white;
+  }
+  
+  .sect1__p1 {
+    margin: 0px;
+  }
+  
+  .sect1__card {
+    width: 218px;
+    height: 160px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-size: cover; /* Фон всегда покрывает карточку */
+    background-position: center; /* Центрирует фон */
+    background-repeat: no-repeat;
+  }
+  
+  .sect1__card h6 {
+    position: relative;
+    top: 15px; /* Убираем сдвиг */
+  }
+  
+  .sect1__cards {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Центрирует карточки в ряду */
+    gap: 10px; /* Расстояние между карточками */
+    flex-wrap: wrap; /* Карточки переносятся на новую строку при недостатке места */
+  }
+  
+  .sect1_container {
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 360px) {
+    .sect1__cards {
+      display: flex;
+      flex-direction: column; /* Выстраивает карточки в колонку */
+      align-items: center; /* Центрирует карточки по горизонтали */
+    }
+  
+    .sect1__card {
+      width: 90%; /* Карточка занимает 90% ширины контейнера */
+      height: 120px; /* Уменьшаем высоту карточки */
+    }
+  }
+  
+  .sect1__cards {
+    display: flex;
+    flex-wrap: wrap; /* Позволяет переносить карточки на новую строку */
+    justify-content: center; /* Центрирует карточки по горизонтали */
+    gap: 10px; /* Расстояние между карточками */
+  }
+  
+  .sect1__card {
+    width: calc(50% - 10px); /* Каждая карточка занимает половину строки (с учетом gap) */
+    height: 160px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-size: cover; /* Фон покрывает карточку */
+    background-position: center; /* Центрируем фон */
+    background-repeat: no-repeat;
+  }
+  
+  @media screen and (max-width: 360px) {
+    .sect1__cards {
+      justify-content: center; /* Центрирует карточки в колонке */
+    }
+  
+    .sect1__card {
+      width: 100%; /* Каждая карточка занимает 100% ширины контейнера */
+      height: 160px; /* Уменьшаем высоту карточки */
+    }
+  }
+  

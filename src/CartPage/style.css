@@ -1,0 +1,10 @@
+.cart__block-bottom{
+    position: fixed;
+    bottom: 20px;
+
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
